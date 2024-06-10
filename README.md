@@ -1,3 +1,5 @@
+```math
+
 \documentclass{article}
 \usepackage{background}
 \usepackage{graphicx} % Required for including images
@@ -18,3 +20,5 @@
 \BgThispage
 Your content goes here.
 \end{document}
+``
+```
