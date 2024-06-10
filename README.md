@@ -1,8 +1,4 @@
 ```math
-$$
-\require{color}
-\ce{\colorbox{red}{\text{\color{white}{\huge{Your Text Here}}}}}
-$$
 
 a*a
 
