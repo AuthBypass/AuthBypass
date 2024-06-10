@@ -4,6 +4,8 @@ $$
 \ce{\colorbox{red}{\text{\color{white}{\huge{Your Text Here}}}}}
 $$
 
+a*a
+
 <style>
 .background-container {
     position: fixed;
