@@ -1,4 +1,3 @@
-```latex
 \documentclass{standalone}
 \usepackage{tikz}
 \usepackage{graphicx}
@@ -19,4 +18,3 @@
 Your main content goes here.
 
 \end{document}
-´´´
