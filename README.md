@@ -1,12 +1,6 @@
 ```math
 $$
-\require{enclose}
-\enclose{circle}{\require{color}\color{white}\huge{Your Text Here}}
-$$
-
-$$
-\require{enclose}
-\enclose{circle}{\text{Your Text Here}}
+\bbox[5px, border: 2px solid black; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px]{\text{\huge Your Text Here}}
 $$
 
 <style>
@@ -24,4 +18,5 @@ $$
 </style>
 
 <div class="background-container"></div>
+
 ```
