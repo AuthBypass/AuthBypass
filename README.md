@@ -1,6 +1,6 @@
 ```math
 $$
-\fbox{\text{\textcolor{white}{\huge{Your Text Here}}}}
+\boxed{\textcolor{white}{\huge{Your Text Here}}}
 $$
 ```
 
