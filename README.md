@@ -1,8 +1,6 @@
 ```math
 \documentclass{article}
-\usepackage{tikz}
 \usepackage{graphicx}
-
 \usepackage{eso-pic}
 
 \newcommand\BackgroundPic{
@@ -16,9 +14,9 @@
     }
 }
 
-\begin{document}
-
 \AddToShipoutPicture*{\BackgroundPic}
+
+\begin{document}
 
 Your main content goes here.
 
