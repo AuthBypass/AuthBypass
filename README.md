@@ -1,5 +1,4 @@
-```math
-\ce{$\unicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100%; object-fit: cover; width: 100%; opacity: 0.1; background: url('https://raw.githubusercontent.com/mtsdotsh/readme-css-injection/main/file.gif');  background-size: cover; background-repeat: no-repeat]{x0000}$}
+```math \ce{$&#x5C;unicode[goombafont; color:red; pointer-events: none; z-index: calc(-10 - 1); /* Use math for z-index */ position: fixed; top: 0; left: 0; height: -6vh; object-fit: cover; background-size: cover; width: 12555vw; /* Adjusted width */ opacity: 0.5; /* Adjusted opacity */ background: url('https://user%2Dimages.githubusercontent.com/30528167/92789817-e4b53d80-f3b3-11ea-96a4-dad3ea09d237.png?raw=true');]{x0000}$}
 ``
 ```
 
