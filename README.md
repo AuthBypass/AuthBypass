@@ -1,5 +1,7 @@
 ```math
-axa
+$$
+\fbox{\text{<span style="color: white; font-size: 24px;">Your Text Here</span>}}
+$$
 ```
 
 ```css
