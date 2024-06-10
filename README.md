@@ -1,6 +1,7 @@
 ```math
 $$
-\boxed{\text{\colorbox{black}{\textcolor{white}{\huge{Your Text Here}}}}}
+\require{color}
+\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}
 $$
 
 <style>
