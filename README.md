@@ -1,5 +1,5 @@
 ```math
-a*a
+axa
 ```
 
 ```css
