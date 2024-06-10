@@ -4,6 +4,11 @@ $$
 \enclose{circle}{\require{color}\color{white}\huge{Your Text Here}}
 $$
 
+$$
+\require{enclose}
+\enclose{circle}{\text{Your Text Here}}
+$$
+
 <style>
 .background-container {
     position: fixed;
@@ -19,5 +24,4 @@ $$
 </style>
 
 <div class="background-container"></div>
-
 ```
