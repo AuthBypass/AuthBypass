@@ -1,6 +1,6 @@
 ```math
 $$
-\fbox{\text{<span style="color: white; font-size: 24px;">Your Text Here</span>}}
+\fbox{\text{\textcolor{white}{\huge{Your Text Here}}}}
 $$
 ```
 
