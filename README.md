@@ -1,7 +1,7 @@
 ```math
 $$
 \require{color}
-\bbox[5px, border: 2px solid red]{\text{\color{white}{\huge{Your Text Here}}}}
+\ce{\colorbox{red}{\text{\color{white}{\huge{Your Text Here}}}}}
 $$
 
 <style>
