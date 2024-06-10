@@ -1,7 +1,7 @@
 ```math
 $$
-\require{color}
-\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}\unicode{1F9E0}
+\require{enclose}
+\enclose{circle}{\require{color}\color{white}\huge{Your Text Here}}
 $$
 
 <style>
