@@ -1,24 +1,27 @@
 ```math
-
 \documentclass{article}
-\usepackage{background}
-\usepackage{graphicx} % Required for including images
-\usepackage{xcolor} % Required for color
+\usepackage{tikz}
+\usepackage{graphicx}
 
-\backgroundsetup{
-  scale=1,
-  color=red,
-  opacity=0.1,
-  angle=0,
-  position=current page.south,
-  vshift=0pt,
-  hshift=0pt,
-  contents={\includegraphics[width=\paperwidth,height=\paperheight]{path/to/your/image.png}}
+\usepackage{eso-pic}
+
+\newcommand\BackgroundPic{
+    \put(0,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering
+            \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{path/to/your/image.png}
+            \vfill
+        }
+    }
 }
 
 \begin{document}
-\BgThispage
-Your content goes here.
+
+\AddToShipoutPicture*{\BackgroundPic}
+
+Your main content goes here.
+
 \end{document}
 ``
 ```
