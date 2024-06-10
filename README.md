@@ -1,23 +1,8 @@
 ```math
-\documentclass{standalone}
-\usepackage{tikz}
-\usepackage{graphicx}
-\usepackage{eso-pic}
-
-\newcommand\BackgroundPic{
-    \AtPageLowerLeft{
-        \raisebox{-\height}{
-            \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{path/to/your/image.png}
-        }
-    }
-}
-
-\AddToShipoutPicture*{\BackgroundPic}
-
-\begin{document}
-
-Your main content goes here.
-
-\end{document}
+\[
+\begin{tikzpicture}[remember picture, overlay]
+    \node[inner sep=0pt, outer sep=0pt, opacity=0.1] at (current page.center) {\includegraphics[width=\paperwidth,height=\paperheight]{path/to/your/image.png}};
+\end{tikzpicture}
+\]
 ``
 ```
