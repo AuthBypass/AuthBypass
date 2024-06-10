@@ -1,19 +1,20 @@
-<style>
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: url('https://raw.githubusercontent.com/mtsdotsh/readme-css-injection/main/file.gif') no-repeat center center;
-    background-size: cover;
-    opacity: 0.1;
-    pointer-events: none;
-    z-index: -10;
+\documentclass{article}
+\usepackage{background}
+\usepackage{graphicx} % Required for including images
+\usepackage{xcolor} % Required for color
+
+\backgroundsetup{
+  scale=1,
+  color=red,
+  opacity=0.1,
+  angle=0,
+  position=current page.south,
+  vshift=0pt,
+  hshift=0pt,
+  contents={\includegraphics[width=\paperwidth,height=\paperheight]{path/to/your/image.png}}
 }
-</style>
 
-# Your Main Content
-
-This is your main content.
+\begin{document}
+\BgThispage
+Your content goes here.
+\end{document}
