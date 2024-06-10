@@ -1,16 +1,12 @@
 ```math
 \documentclass{article}
+\usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{eso-pic}
 
 \newcommand\BackgroundPic{
-    \put(0,0){
-        \parbox[b][\paperheight]{\paperwidth}{
-            \vfill
-            \centering
-            \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{path/to/your/image.png}
-            \vfill
-        }
+    \AtPageLowerLeft{
+        \includegraphics[width=\paperwidth,height=\paperheight]{path/to/your/image.png}
     }
 }
 
